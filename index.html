@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford:'#da373d',
+            warna: '#435B66',
+            background:'#7BD3EA',
+            warna1: '#FF90BC',
+          },
+          container: {
+            center: true,
+            padding: "16px"
+          }
+        }
+      }
+    }
+  </script>
+</head>
+</style>
+<body
+class="bg-background">
+<header class="header">
+<a href="#" class="logo">Baim</a>
+
+
+<nav class="navbar">
+<a href="#">home</a>
+<a href="#">about</a>
+<a href="#">services</a>
+<a href="#">contact</a>
+</nav>
+</header>
+  <section id="home" class="pt-24 pb-24">
+        <div class="flex flex-wrap">
+            <div align="center" class="w-full px-4 lg:w-1/2">
+                <img src="./img/download.jpg" alt="" width="250" class="rounded-full shadow-xl shadow-warna">
+            </div>
+            <div class="w-full px-4 lg:w-1/2 self-center">
+                <h1 class="mt-5 text-lg mb-5 lg:text-3xl font-bold text-black">Hello I'm  <span class="title"></span></h1>
+                <p class="mb-5 tracking-tight font-extralight text-dark-color">Aku suka makan nasi, makan mie, makan rendang, dan aku juga suka kamu. Aku sekolah di smk terbaik di jakarta, smk 22</p>
+                <a href="#" class="bg-warna1 px-5 py-2 font-bold text-base text-semilight rounded-lg shadow-lg shadow-warna">CV</a>
+              </div>
+        </div>
+    </div>
+  
+</section>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('.title', {
+      strings: ['Imba Baim', 'IT Enthusiast', 'Computer Expert'],
+      typeSpeed: 80,
+      backspeed: 80,
+      loop: true
+    });
+  </script>
+    <section id="about" class="pt-24 pb-24"> 
+      <div class="container">
+        <h1 class="text-center font-bold text-lg mb-5">About Me</h1>
+        <div class="flex flex-wrap">
+        <div align="center" class="w-full lg:w-1/2 px-4 mt-5 mb-8">
+          <img src="./img/543a26f4a757c03190042e5b7323d90e.jpg" alt="" width="250" class="rounded-full shadow-xl shadow-warna">
+          </div>
+          <div class="w-full lg:w-1/2 px-4 self-center">
+            <h1 class="font-bold text-lg text-darkcolor mb-5">Hello Everyone</h1>
+            <hr class="border-warna1 sm:mx-auto mb-7">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-2">
+            <div class="mb-2 grid">
+              <h1 class="font-bold text-lg text-dark-color mb-2">Social Media</h1>
+              <a href="#" class="font-regular text-md text-black">Instagram</a>
+              <a href="#" class="font-regular text-md text-black">Facebook</a>
+              <a href="#"  class="font-regular text-md text-black">X</a>
+              <a href="#" class="font-regular text-md text-black">Github</a>
+            </div>
+
+            <div class="mb-2 grid">
+              <h1 class="font-bold text-lg text-dark-color mb-2">Activity</h1>
+              <h1 class="font-regular text-md text-black">Sleep</a>
+              <h1 class="font-regular text-md text-black">Eat</a>
+              <h1 class="font-regular text-md text-black">Games</a>
+              <h1 class="font-regular text-md text-black">Sleep</a>
+            </div>
+
+            <div class="mb-2">
+              <h1 class="font-bold text-lg text-dark-color mb-2">Web Personal</h1>
+              <h1 class="font-regular text-md text-black flex">Portfolio</a>
+              <h1 class="font-regular text-md text-black">Blog</a>
+            </div>
+
+</body>
+
+</html>
